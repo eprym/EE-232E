@@ -1,2 +1,2 @@
-# EE232E
+# EE-232E
 Repository for EE 232E graphs and network flows
