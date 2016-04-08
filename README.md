@@ -1,3 +1,3 @@
-# EE-232E project
+# EE-232E
 
 Repository for EE 232E graphs and network flows
