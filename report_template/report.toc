@@ -1,0 +1,8 @@
+\contentsline {section}{\numberline {1}Problem1}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Part a}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Part b}{3}{subsection.1.2}
+\contentsline {section}{\numberline {2}Problem2}{3}{section.2}
+\contentsline {section}{\numberline {3}Problem 3}{3}{section.3}
+\contentsline {section}{\numberline {4}Problem 4}{3}{section.4}
+\contentsline {subsection}{\numberline {4.1}Formula}{3}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Some other things}{4}{subsection.4.2}

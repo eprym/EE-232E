@@ -1,0 +1,12 @@
+library("igraph")
+g1 <- sample_pa_age(1000, directed=FALSE, pa.exp=1, aging.exp=0, aging.bin=1000)
+d1 <- degree.distribution(g1)
+#png(filename="p3_1.png")
+plot(d1, type="o")
+#dev.off()
+
+fc <- cluster_fast_greedy(g1)
+print(modularity(g1, membership(fc)))
+#png(filename="p3_2.png")
+plot(fc, g1)
+#dev.off()
