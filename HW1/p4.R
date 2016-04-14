@@ -12,6 +12,7 @@ library("igraph")
 dd1<-rep(0,220)
 dd2<-rep(0,220)
 diam <- 0
+mod <- 0
 for(i in 1:100){
   g <- sample_forestfire(1000, fw.prob=0.37, bw.factor=0.32/0.37, directed=TRUE)
   temp1<- degree.distribution(g, mode="in")
@@ -19,13 +20,15 @@ for(i in 1:100){
   dd1 <-dd1+c(temp1,rep(0,220-length(temp1)))
   dd2 <-dd2+c(temp2,rep(0,220-length(temp2)))
   diam <- diam + diameter(g)
+  fg <- walktrap.community(g)
+  mod <- mod + modularity(g,membership(fg))
 }
 png(filename="degree_in.png")
-plot(dd1/100, type="o")
+plot(dd1/100, type="o", xlab="degree", ylab="frequency")
 dev.off()
 
 png(filename="degree_out.png")
-plot(dd2/100, type="o")
+plot(dd2/100, type="o",xlab="degree", ylab="frequency")
 dev.off()
 
 png(filename="in&out.png")
@@ -40,4 +43,5 @@ png(filename="community.png")
 fg <- walktrap.community(g)
 plot(fg,g)
 dev.off()
-print(modularity(g,membership(fg)))
+print(mod/100)
+#print(modularity(g,membership(fg)))

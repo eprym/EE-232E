@@ -85,4 +85,38 @@ In order to calculate the modularity, we used the fast greedy algorithm. We ran 
 \caption{The community structure of the graph}
 \label{fig:p3_2}
 \end{figure}
+\section{Problem 4}
+\subsection{Part a}
+In this part, we used the forest fire model to simulate a growing network. The network contained 1000 nodes. Again, we ran the test for 100 times and calculated the avarage input and output degree distribution. Figure \ref{fig:in} shows the input degree distribution and figure \ref{fig:out} shows the output degree distribution. The figure \ref{fig:inout} shows the result if we put the input and output degree in the same image, from which we can see that the input degree is approximately equal to the output degree.
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.6\textwidth]{degree_in.png}
+\caption{The input degree distribution}
+\label{fig:in}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.6\textwidth]{degree_out.png}
+\caption{The output degree distribution}
+\label{fig:out}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.6\textwidth]{in_out.png}
+\caption{The intput and output degree distribution}
+\label{fig:inout}
+\end{figure}
+\subsection{Part b}
+We calculated the avarage diameter of the graph through 100 test and the diameter result is 10.46.
+\subsection{Part c}
+We chose to use random walks algorithm to calculate the community because it is more fit for directed graph. The tests were also run for 100 times and one of the community structures is shown in figure \ref{fig:com} and the average modularity is 0.42.
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.8\textwidth]{p4.png}
+\caption{The community structure of the growing graph}
+\label{fig:com}
+\end{figure}
+
 \end{document}
