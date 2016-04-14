@@ -73,13 +73,22 @@ The average diameter of network is 20 after we run 100 times, and its degree dis
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.6\textwidth]{p2_1.png}
-\caption{The distribution for fat tailed graph}
+\caption{Degree distribution of fat tailed graph}
 \label{fig:p2_1}
-\end{figure}
+\end{figure}\\
+\\
 
 \subsection{Part b}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.6\textwidth]{p2_2.png}
+\caption{Community structure of the graph}
+\label{fig:p2_2}
+\end{figure}
+
+\newpage
 We repeated 100 times the graph is always connected.
-The GCC is the whole graph.
+The GCC is the whole graph. The structure is shown in figure \ref{fig:p2_2}
 Number of communities (best split) is 34.
 The modularity is 0.9348964.\\
 \\
@@ -88,16 +97,16 @@ The value of modularity is very big because connections between nodes in differe
 When we build a graph with 10000 nodes, the best split number of community is 105 and the corresponding modularity becomes 0.9792582.
 It is greater than the modularity of the case with 1000 nodes.
 \subsection{Part d}
-We use histogram to describe the degree distribution. The result is shown in figure \ref{fig:p2_2}. \\
+We use histogram to describe the degree distribution. The result is shown in figure \ref{fig:p2_3}. \\
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=.6\textwidth]{p2_2.png}
+\includegraphics[width=.6\textwidth]{p2_4.png}
 \caption{The distribution histogram of degreel}
-\label{fig:p2_2}
+\label{fig:p2_3}
 \end{figure}
 \\
-\\
-From the graph we can see that, the most common degree is 2.
+From the graph we can see that, the most common degree is 2.\\
+
 \section{Problem 3}
 \subsection{Part a}
 We create a evolving random undirected graph with 1000 nodes, the preferantial attachment exponent is 1, the aging exponent is 0 and the number of bins is 1000. The degree distribution is shown in figure \ref{fig:p3_1}.

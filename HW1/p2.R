@@ -20,6 +20,12 @@ for(i in 1:100){
 #k<-count
 print(count)
 print(diameters/100)
+graphs <- decompose.graph(g)
+#assign some vertex ids as vertex attributes so that one can keep track of which vertex #is n which component
+V(g)$label <- seq(vcount(g))
+#plot the largest component--GCC
+largest <- which.max(sapply(graphs, vcount))
+plot(graphs[[largest]])
 #b
 # find the giant connected component
 cl <- clusters(g)
