@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  14 APR 2016 00:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  14 APR 2016 00:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -383,23 +383,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--68
 
  []
 
-<figure2a.png, id=116, 481.8pt x 481.8pt>
-File: figure2a.png Graphic file (type png)
- <use figure2a.png>
-Package pdftex.def Info: figure2a.png used on input line 75.
+<p2_1.png, id=116, 481.8pt x 481.8pt>
+File: p2_1.png Graphic file (type png)
+ <use p2_1.png>
+Package pdftex.def Info: p2_1.png used on input line 75.
 (pdftex.def)             Requested size: 207.0021pt x 207.00087pt.
  [4 <./p1_3.png>]
-<figure2d.png, id=125, 455.7025pt x 398.48875pt>
-File: figure2d.png Graphic file (type png)
- <use figure2d.png>
-Package pdftex.def Info: figure2d.png used on input line 95.
+<p2_2.png, id=125, 455.7025pt x 398.48875pt>
+File: p2_2.png Graphic file (type png)
+ <use p2_2.png>
+Package pdftex.def Info: p2_2.png used on input line 95.
 (pdftex.def)             Requested size: 207.0021pt x 181.01472pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 92--102
 
  []
 
-[5 <./figure2a.png>] <p3_1.png, id=133, 481.8pt x 481.8pt>
+[5 <./p2_1.png>] <p3_1.png, id=133, 481.8pt x 481.8pt>
 File: p3_1.png Graphic file (type png)
  <use p3_1.png>
 Package pdftex.def Info: p3_1.png used on input line 107.
@@ -416,8 +416,8 @@ File: degree_in.png Graphic file (type png)
  <use degree_in.png>
 Package pdftex.def Info: degree_in.png used on input line 124.
 (pdftex.def)             Requested size: 207.0021pt x 207.00087pt.
- [6 <./figure2d.png>] [7 <./p3_1.png> <./p3_2.png>] <degree_out.png, id=159, 48
-1.8pt x 481.8pt>
+ [6 <./p2_2.png>] [7 <./p3_1.png> <./p3_2.png>] <degree_out.png, id=159, 481.8p
+t x 481.8pt>
 File: degree_out.png Graphic file (type png)
 
 <use degree_out.png>
@@ -440,15 +440,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 153.
  (./report.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 153.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 153.
+Package rerunfilecheck Info: File `report.out' has not changed.
+(rerunfilecheck)             Checksum: BFF658B1D1DC83D2428632AD051A32A6;841.
 
-
-Package rerunfilecheck Warning: File `report.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `report.out':
-(rerunfilecheck)             Before: FAABBE2C5D55130CB59117F0F6A5B918;821
-(rerunfilecheck)             After:  BFF658B1D1DC83D2428632AD051A32A6;841.
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -456,7 +450,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 153.
  ) 
 Here is how much of TeX's memory you used:
  6489 strings out of 493089
- 95344 string characters out of 6134842
+ 95304 string characters out of 6134842
  183273 words of memory out of 5000000
  9859 multiletter control sequences out of 15000+600000
  9023 words of font info for 33 fonts, out of 8000000 for 9000
@@ -469,7 +463,7 @@ Here is how much of TeX's memory you used:
 sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
 /local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
 ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on report.pdf (10 pages, 375250 bytes).
+Output written on report.pdf (10 pages, 375211 bytes).
 PDF statistics:
  216 PDF objects out of 1000 (max. 8388607)
  173 compressed objects within 2 object streams
