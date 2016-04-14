@@ -70,5 +70,19 @@ In order to find out the value of $p_{c}$, we start from the small value of p un
 
 \section{Problem 3}
 \subsection{Part a}
-
+We create a evolving random undirected graph with 1000 nodes, the preferantial attachment exponent is 1, the aging exponent is 0 and the number of bins is 1000. The degree distribution is shown in figure \ref{fig:p3_1}.
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.6\textwidth]{p3_1.png}
+\caption{The degree distribution for evolving random graph}
+\label{fig:p3_1}
+\end{figure}
+\subsection{Part b}
+In order to calculate the modularity, we used the fast greedy algorithm. We ran the test for 100 times and calculated the average of modularity, the average modularity is 0.9225776. One of the community structure is shown in figure \ref{fig:p3_2}.
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.8\textwidth]{p3_2.png}
+\caption{The community structure of the graph}
+\label{fig:p3_2}
+\end{figure}
 \end{document}
