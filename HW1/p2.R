@@ -50,7 +50,7 @@ struct = fastgreedy.community(gcc)
 print(struct)
 mod = modularity(struct)
 print("modularity=")
-print(modularity(mod))
+print(modularity(gcc,membership(struct)))
 #d
 g <- barabasi.game(10000,power=-3, directed = FALSE)
 degreesVector <- degree(g)
