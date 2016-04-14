@@ -3,7 +3,7 @@ library(igraph)
 #create a undirected network with a fat-tailed degree distribution
 g <- barabasi.game(1000,directed=FALSE)
 d<-degree.distribution(g)
-png(filename="/Users/mysteryjoe/Desktop/ucla/ee232/figure1.png")
+#png(filename="/Users/mysteryjoe/Desktop/ucla/ee232/figure1.png")
 plot(d, type="o")
 #diameter(g)
 dev.off()
@@ -40,6 +40,8 @@ mod = modularity(struct)
 print("modularity=")
 print(modularity(gcc,membership(struct)))
 
+
+
 ##create a undirected network with a fat-tailed degree distribution with 10000 nodes
 cl = clusters(g)
 gccIndex = which.max(cl$csize)
@@ -69,7 +71,7 @@ for (p in 1:10000){
 hs <- hist(deg, breaks=seq(-0.5, by=1 , length.out=max(deg)+2))
 #degree distribution of node j 
 dd <- data.frame(x=hs$mids, y=hs$density)
-png(filename="/Users/mysteryjoe/Desktop/ucla/ee232/figure2.png")
+#png(filename="/Users/mysteryjoe/Desktop/ucla/ee232/figure2.png")
 plot(dd , type="o")
 dev.off()
 
