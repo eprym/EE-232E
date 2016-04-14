@@ -40,8 +40,6 @@ mod = modularity(struct)
 print("modularity=")
 print(modularity(gcc,membership(struct)))
 
-
-
 ##create a undirected network with a fat-tailed degree distribution with 10000 nodes
 cl = clusters(g)
 gccIndex = which.max(cl$csize)
