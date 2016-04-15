@@ -80,10 +80,17 @@ The average diameter of network is 20 after we run 100 times, and its degree dis
 \subsection{Part b}
 We repeated 100 times the graph is always connected.
 The GCC is the whole graph.
-Number of communities (best split) is 34.
-The modularity is 0.9348964.\\
+Number of communities (best split) is 34.\\
 \\
-The value of modularity is very big because connections between nodes in different modules are sparse, but between nodes in same modules are dense. 
+The modularity is 0.9348964. The value of modularity is very big because connections between nodes in different modules are sparse, but between nodes in same modules are dense. \\
+\\
+The structure of the GCC community is shown in figure \ref{fig:p2_3}.
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.6\textwidth]{p2_3.png}
+\caption{The structure of the GCC community}
+\label{fig:p2_3}
+\end{figure}
 \subsection{Part c}
 When we build a graph with 10000 nodes, the best split number of community is 105 and the corresponding modularity becomes 0.9792582.
 It is greater than the modularity of the case with 1000 nodes.
@@ -92,10 +99,9 @@ We use histogram to describe the degree distribution. The result is shown in fig
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.6\textwidth]{p2_2.png}
-\caption{The distribution histogram of degreel}
+\caption{The distribution histogram of degree}
 \label{fig:p2_2}
 \end{figure}
-\\
 \\
 From the graph we can see that, the most common degree is 2.
 \section{Problem 3}
