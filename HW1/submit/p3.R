@@ -7,7 +7,7 @@ dev.off()
 
 fc <- cluster_fast_greedy(g1)
 png(filename="p3_2.png")
-plot(fc, g1)
+plot(fc, g1, vertex.label=NA)
 dev.off()
 
 mod <- 0

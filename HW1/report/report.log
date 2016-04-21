@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  14 APR 2016 15:31
+=======
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014) (preloaded format=xelatex 2015.10.13)  14 APR 2016 16:59
+>>>>>>> origin/master
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -380,6 +384,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--68
 
  []
 
+<<<<<<< HEAD
 <p2_1.png, id=117, 481.8pt x 481.8pt>
 File: p2_1.png Graphic file (type png)
  <use p2_1.png>
@@ -387,10 +392,18 @@ Package pdftex.def Info: p2_1.png used on input line 75.
 (pdftex.def)             Requested size: 207.0021pt x 207.00087pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 72--80
+=======
+File: p2_1.png Graphic file (type QTm)
+<use  "p2_1.png" > [4]
+File: p2_3.png Graphic file (type QTm)
+ <use  "p2_3.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 81--94
+>>>>>>> origin/master
 
  []
 
 
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 72--80
 
  []
@@ -499,3 +512,43 @@ PDF statistics:
  42 named destinations out of 1000 (max. 500000)
  189 words of extra memory for PDF output out of 10000 (max. 10000000)
 
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 81--94
+
+ []
+
+File: p2_2.png Graphic file (type QTm)
+<use  "p2_2.png" > [5]
+File: p3_1.png Graphic file (type QTm)
+ <use  "p3_1.png" >
+File: p3_2.png Graphic file (type QTm)
+ <use  "p3_2.png" >
+File: degree_in.png Graphic file (type QTm)
+
+<use  "degree_in.png" > [6] [7] [8]
+File: degree_out.png Graphic file (type QTm)
+ <use  "degree_out.png" >
+File: in_out.png Graphic file (type QTm)
+
+<use  "in_out.png" >
+File: p4.png Graphic file (type QTm)
+ <use  "p4.png" >
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 158.
+ [9] [10] [11]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 158.
+ (./report.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 158.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 158.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 158.
+ ) 
+Here is how much of TeX's memory you used:
+ 9390 strings out of 493734
+ 131234 string characters out of 6146347
+ 201803 words of memory out of 5000000
+ 12646 multiletter control sequences out of 15000+600000
+ 9383 words of font info for 34 fonts, out of 8000000 for 9000
+ 1328 hyphenation exceptions out of 8191
+ 30i,14n,45p,551b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on report.pdf (11 pages).
+>>>>>>> origin/master

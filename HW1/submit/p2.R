@@ -32,6 +32,10 @@ cl <- clusters(g)
 gccIndex = which.max(cl$csize)
 nonGccNodes <- (1:vcount(g))[cl$membership != gccIndex]
 gcc <- delete.vertices(g, nonGccNodes)
+fc <- cluster_fast_greedy(gcc)
+png(filename="p2.png")
+plot(wc, gcc, vertex.size=5, vertex.label=NA)
+dev.off()
 #c
 g <- barabasi.game(10000,directed=FALSE)
 cl = clusters(g)

@@ -40,8 +40,9 @@ dev.off()
 print(diam/100)
 
 png(filename="community.png")
-fg <- walktrap.community(g)
-plot(fg,g)
+wc <- walktrap.community(g)
+plot(wc,g, vertex.label=NA)
 dev.off()
 print(mod/100)
 #print(modularity(g,membership(fg)))
+
