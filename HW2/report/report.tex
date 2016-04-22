@@ -217,22 +217,73 @@ The degree distribution at the end of random walk is shown in Figure \ref{fig:p2
 \label{fig:p2_e2}
 \end{figure}
 \noindent We can see from the figures above that the degree distribution at the end of the random walk and the degree distribution of graph are generally resembles each other.This similarity between two distributions means that nodes the walker went through are randomized, thus indicates the reliability of our random walk algorithm.
+\newpage
 \section{Problem 3}
+We create a graph of 1000 nodes and 
 \subsection{Part a}
 We plot the average visit probability, we can see that average visiting probability is  closely RELATED to 
-the degree.
+the degree. Low degree causes low average probability and high degree causes high average probabillity.
 From the second graph, we can see that the average visiting probability has linear relation to the degree of the node. 
 The covariance AVP and degreee is about 0.9471915(about 0.95 after several tests)
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.6\textwidth]{p3_1.png}
-\caption{Relation between degree and average visiting probability}
+\caption{Statistic of degree and average visit probability for undirected graph with damp factor=1}
 \label{fig:p3_1}
 \end{figure}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.6\textwidth]{p3_2.png}
+\caption{Relation between degree and average visit probability for undirected graph with damp factor=1}
+\label{fig:p3_2}
+\end{figure}
 \subsection{Part b}
-By plotting the relationship between , 
+For directed graph, we plot in degree and out degree respectively. \\
+For in degree, we plot the relation in Figure \ref{fig:p3_3} and 
+Figure \ref{fig:p3_4}. It is similar with problem3a. \\
+There is a close linear relation, and the coriance is 0.8631107(around 0.86 after several tests), which is little than the covariance of undirected graph.\\
+However, for degree it is a different situation. We plot the relation in Figure \ref{fig:p3_7}The covariance is very low(0.01592023, around 0 after several tests), and there is no obvious relation between probability and out degree.\\
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.6\textwidth]{p3_3.png}
+\caption{Statistic of indegree and average visit probability for directed graph with damp factor=1}
+\label{fig:p3_3}
+\end{figure}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.6\textwidth]{p3_4.png}
+\caption{Relation of indegree and average visit probability for directed graph with damp factor=1}
+\label{fig:p3_4}
+\end{figure}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.6\textwidth]{p3_7.png}
+\caption{Statistics of outdegree and average visit probability for undirected graph with damp factor=1}
+\label{fig:p3_7}
+\end{figure}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.6\textwidth]{p3_8.png}
+\caption{Relation between outdegree and average visit probability for undirected graph with damp factor=1}
+\label{fig:p3_8}
+\end{figure}
 \subsection{Part c}
-By plott, The average visit probability is still linearly related
+We plot degree and  average visit probability in Figure \ref{fig:p3_5} and Figure\ref{fig:p3_6}. The relation is similar with Problem3a. The average visit probability is still closely linearly related, but the covariance  is 0.919052(about 0.92 after several tests), which is slightly little than the covariance for damping factor =1, and greater than the value undirected graph.
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.6\textwidth]{p3_5.png}
+\caption{statistics of degree and average visit probability for undirected graph with damp factor=0.85}
+\label{fig:p3_5}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.6\textwidth]{p3_6.png}
+\caption{Relation between degree and average visit probability for undirected graph with damp factor=0.85}
+\label{fig:p3_6}
+\end{figure}
+\newpage
 \section{Problem 4}
 \subsection{Part a}
 The ramdom directed network was created with the damping factor 0.85. It had 1000 nodes and we chose to run the random walk experiment for 1000 times. Figure \ref{fig:p4_a} shows the result of the average page rank.
