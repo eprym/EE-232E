@@ -17,6 +17,10 @@
 \newpage
 \tableofcontents
 \newpage
+\section{Problem 1}
+After we construct the graph from the file, we found that the graph is not connected. The biggest connected component consists 10487 vertices out of 10501 vertices of the graph, however, there are 14 vertices belongs to other connected component.
+\section{Problem 2}
+For this directed graph, we collected the information about both in-degree and out-degree
 \section{Problem 3}
 When transforming the undirected network into directed network, it's not trivial to choose the method. Here we have two options : (1) we can keep the number of edges unchanged and just remove the direction, however it will lead to the  non-simple network. (2) or we can merge the two directed edges between two nodes and make the new weight the geometric mean of the original weight. The fast greedy method can only be applied to the second method and label propagation method can be applied to both.
 \subsection{Option 1}
