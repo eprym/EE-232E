@@ -18,9 +18,24 @@
 \tableofcontents
 \newpage
 \section{Problem 1}
-After we construct the graph from the file, we found that the graph is not connected. The biggest connected component consists 10487 vertices out of 10501 vertices of the graph, however, there are 14 vertices belongs to other connected component.
+After we construct the graph from the file, we found that the graph is not connected. The biggest connected component consists 10487 vertices out of 10501 vertices of the graph, however, there are 14 vertices  belongs to other connected component (7 other connected components, 2 vertices for each).
 \section{Problem 2}
-For this directed graph, we collected the information about both in-degree and out-degree
+For this directed graph, we collected the information about both in-degree and out-degree respectively.
+We can see the degree distribution for in-degree in figure \ref{fig:p2_1} and for out-degree in figure \ref{fig:p2_2}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.6\textwidth]{p2_in.png}
+\caption{in degree distribution}
+\label{fig:p2_1}
+\end{figure}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.6\textwidth]{p2_out.png}
+\caption{out degree distribution}
+\label{fig:p2_2}
+\end{figure}
+We can see that in-degree and out-degree have similar distribution for this graph.
+\newpage
 \section{Problem 3}
 When transforming the undirected network into directed network, it's not trivial to choose the method. Here we have two options : (1) we can keep the number of edges unchanged and just remove the direction, however it will lead to the  non-simple network. (2) or we can merge the two directed edges between two nodes and make the new weight the geometric mean of the original weight. The fast greedy method can only be applied to the second method and label propagation method can be applied to both.
 \subsection{Option 1}
@@ -48,7 +63,7 @@ Size&10472&4&5&3&3\\
 \end{figure}
 
 \subsection{Option 2}
-We can use both label propagation method and fast greedy method to calculate the community for option 2. The respective community sizes are shown in table \ref{tb:p3_comsize_lpc} and table \ref{tb:p3_comsize_fgc}. 
+We can use both label propagation method and fast greedy method to calculate the community for opstion 2. The respective community sizes are shown in table \ref{tb:p3_comsize_lpc} and table \ref{tb:p3_comsize_fgc}. 
 The community structures are shown in figure \ref{fig:lpc_opt2} and figure \ref{fig:fgc_opt2}. The modularity for label propagation method is $0.0001698002$ and is $0.3287988$ for fast greedy method.
 We can see that compared with label propagation method, fast greedy method will produce communities with more uniform sizes and higher modularity, which means the fast greedy method is more effective in this case.
 \begin {table}[htbp]
