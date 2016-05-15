@@ -98,7 +98,12 @@ As an alternative to the global clustering coefficient, the overall level of clu
 \bar{C} = \frac{1}{n} \sum_{i=1}^nC_i
 \end{equation*}
 \subsection{Density} 
-Network density describes the portion of the potential connections in a network that are actual connections. A potential network is a connection that could potentially exist between two nodes - regardless of whether or not it actually does. A network with high density has large possibility to be a clique.
+Network density describes the portion of the potential connections in a network that are actual connections. A potential network is a connection that could potentially exist between two nodes - regardless of whether or not it actually does. That is, for a cluster $c$, the density $d(c)$ is defined as\\
+\begin{equation*}
+d(c) = \frac{2 \times E(c)}{|c|(|c|-1)}
+\end{equation*}
+where $E(c)$ is the number of edges in cluster $c$ and $|c|$ is the number of vertices in cluster $c$.
+High density means there are dense connections inside the cluster therefore a network with high density has large possibility to be a clique.
 \subsection{Resutls}
 The results are shown in table \ref{tb:type}. We calculate both the cluster coefficient and density of each community that is larger than 10 in each personal network and store the community indices of the largest and smallest values.\\
 \begin{table}[hbp]
