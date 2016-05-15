@@ -77,8 +77,47 @@ After deletion&0.4418533& 0.4161461& 0.4180077\\
 
 \section{Problem 6}
 In this problem, we choose to use the cluster coefficient and density to define two types of communities in the 41 personal networks. We try to find the community indices that have maximal and minimal results and compare them to draw the conclusion.
-\subsection{Cluster Coefficient}
-\subsubsection{Local Cluster Coefficient}
-The local clustering coefficient of a vertex in a graph quantifies how close its neighbors are to being a clique. A graph $G=(V,E)$ formally consists of a set of vertices $V$ and a set of edges $E$ between them. A edge $$
+\subsection{Clustering Coefficient}
+\subsubsection{Global Clustering Coefficient}
+The global clustering coefficient is based on triplets of nodes. A triplet consists of three connected nodes. A triangle therefore includes three closed triplets. Therefore the global clustering coefficient is the number of closed triplets (or 3 x triplets) over the total number of triplets.
+\begin{equation*}
+C = \frac{3\;\times\;number\; of\; triangles}{number\; of\; connected\; triplets}
+\end{equation*}
+\subsubsection{Local Clustering Coefficient}
+The local clustering coefficient of a vertex in a graph quantifies how close its neighbors are to being a clique. A graph $G=(V,E)$ formally consists of a set of vertices $V$ and a set of edges $E$ between them. A edge $e_{ij}$ connects vertex $v_i$ with $v_j$. The neighborhood $N_i$ for a vertex $v_i$ is defined as its immediately connected neighbors as follows
+\begin{equation*}
+N_i=\lbrace v_j:e_{ij}\in E \cup e_{ji} \in E \rbrace
+\end{equation*} 
+we define $k_i$ as the number of vertices in $N_i$. So the local clustering coefficient for undirected graph is
+\begin{equation*}
+C_i = \frac{2 \vert \lbrace e_{jk} : v_j, v_k \in N_i, e_{jk} \in E\rbrace\vert}{k_i(k_i-1)}
+\end{equation*}
+\subsubsection{Network average clustering coefficient}
+As an alternative to the global clustering coefficient, the overall level of clustering in a network is measured as the average of the local clustering coefficients of all the vertices $n$
+\begin{equation*}
+\bar{C} = \frac{1}{n} \sum_{i=1}^nC_i
+\end{equation*}
 \subsection{Density} 
+Network density describes the portion of the potential connections in a network that are actual connections. A potential network is a connection that could potentially exist between two nodes - regardless of whether or not it actually does. A network with high density has large possibility to be a clique.
+\subsection{Resutls}
+The results are shown in table \ref{tb:type}. We calculate both the cluster coefficient and density of each community that is larger than 10 in each personal network and store the community indices of the largest and smallest values.\\
+\begin{table}[hbp]
+\caption{The two type communities' indices}
+\begin{adjustbox}{center}
+\label{tb:type}
+\begin{tabular}{|c|c|}
+\hline
+type1 cluster &6 3 2 4 1 1 1 2 1 2 1 1 2 2 2 2 1 3 2 1 1 1 2 3 1 2 1 2 3 2 3 1 1 2 1 1 2 1 2 1 2\\
+\hline
+type1 density &6 3 2 4 1 1 1 2 1 2 1 1 2 2 2 2 1 3 2 1 1 1 2 3 1 2 1 2 3 2 3 1 1 2 1 1 2 1 2 1 2\\
+\hline
+type2 cluster &7 4 3 5 4 3 2 1 3 1 2 3 1 1 1 1 2 1 3 2 8 2 1 1 2 1 2 1 1 1 1 2 2 1 2 2 1 2 1 2 1\\
+\hline
+type2 density &7 4 3 5 4 3 2 1 3 1 2 3 1 1 1 1 2 1 3 2 8 2 1 1 2 1 2 1 1 1 1 2 2 1 2 2 1 2 1 2 1\\
+\hline
+\end{tabular}
+\end{adjustbox}
+\end{table}
+\\
+Type 1 are indices with largest values and type 2 are indices with smallest values. From the table \ref{tb:type} we can see that clustering coefficient and density gave exactly the same results. So we can draw the conclusion that both clustering coefficient and density can distinguish two types of communities, one is densely connected inside, maybe a network of high school classmates and another sparselyl connected inside, maybe the fans of a sport team.
 \end{document}

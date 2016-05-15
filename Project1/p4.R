@@ -8,11 +8,11 @@ pn <- personalNetworks[[node_to_choose]]
 pn_orig <- pn
 
 node_to_delete = V(pn)[V(pn)$name == V(fb_graph)[node_to_choose]$name]
-pn <- delete.vertices(pn, node_to_delete)
+#pn <- delete.vertices(pn, node_to_delete)
 nodesize <- rep(4, vcount(pn))
-#nodesize[V(pn)$name == V(fb_graph)[node_to_choose]$name] = 7
+nodesize[V(pn)$name == V(fb_graph)[node_to_choose]$name] = 7
 V(pn)$color = "blue"
-#V(pn)[V(pn)$name == V(fb_graph)[node_to_choose]$name]$color = "black"
+V(pn)[V(pn)$name == V(fb_graph)[node_to_choose]$name]$color = "black"
 png(filename = "p4_1.png")
 plot(pn, vertex.size = nodesize, vertex.label = NA)
 dev.off()
