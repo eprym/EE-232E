@@ -8,7 +8,7 @@ pn <- personalNetworks[[node_to_choose]]
 pn_orig <- pn
 
 node_to_delete = V(pn)[V(pn)$name == V(fb_graph)[node_to_choose]$name]
-#pn <- delete.vertices(pn, node_to_delete)
+pn <- delete.vertices(pn, node_to_delete)
 nodesize <- rep(4, vcount(pn))
 nodesize[V(pn)$name == V(fb_graph)[node_to_choose]$name] = 7
 V(pn)$color = "blue"
@@ -55,7 +55,7 @@ dev.off()
 
 ifc_orig <- infomap.community(pn_orig)
 size_ifc_orig <- sizes(ifc_orig)
-mod_ifc_orig <- modularity(ifc)
+mod_ifc_orig <- modularity(ifc_orig)
 print(mod_ifc)
 print(mod_ifc_orig)
 
