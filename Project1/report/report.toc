@@ -1,10 +1,12 @@
-\contentsline {section}{\numberline {1}Problem 3}{3}{section.1}
-\contentsline {section}{\numberline {2}Problem 4}{5}{section.2}
-\contentsline {section}{\numberline {3}Problem 6}{6}{section.3}
-\contentsline {subsection}{\numberline {3.1}Clustering Coefficient}{6}{subsection.3.1}
-\contentsline {subsubsection}{\numberline {3.1.1}Global Clustering Coefficient}{6}{subsubsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.2}Local Clustering Coefficient}{8}{subsubsection.3.1.2}
-\contentsline {subsubsection}{\numberline {3.1.3}Network average clustering coefficient}{8}{subsubsection.3.1.3}
-\contentsline {subsection}{\numberline {3.2}Density}{8}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Resutls}{8}{subsection.3.3}
-\contentsline {section}{\numberline {4}Problem 7}{9}{section.4}
+\contentsline {section}{\numberline {1}Problem 1}{3}{section.1}
+\contentsline {section}{\numberline {2}Problem 2}{3}{section.2}
+\contentsline {section}{\numberline {3}Problem 3}{3}{section.3}
+\contentsline {section}{\numberline {4}Problem 4}{6}{section.4}
+\contentsline {section}{\numberline {5}Problem 6}{7}{section.5}
+\contentsline {subsection}{\numberline {5.1}Clustering Coefficient}{7}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}Global Clustering Coefficient}{7}{subsubsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.2}Local Clustering Coefficient}{7}{subsubsection.5.1.2}
+\contentsline {subsubsection}{\numberline {5.1.3}Network average clustering coefficient}{9}{subsubsection.5.1.3}
+\contentsline {subsection}{\numberline {5.2}Density}{9}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Resutls}{9}{subsection.5.3}
+\contentsline {section}{\numberline {6}Problem 7}{10}{section.6}

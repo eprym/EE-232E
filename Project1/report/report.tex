@@ -17,6 +17,18 @@
 \newpage
 \tableofcontents
 \newpage
+\section{Problem 1}
+We read the txt file and construct the graph.
+After we constructed the graph, we found that the graph is connected.\\
+The diameter is 8.\\
+Intuitively, we believer that the distribution should be $$\frac{1}{y} \sim a*x^{p}+b$$\\
+which means frequency should be inverse proportional  to $a*degree^{p}+b$\\
+After fitting the data, the coeficient is a=0.042,b=40.39,p=2.065\\
+So the model is $$y=\frac{1}{0.042*x^{2.065}+40.39}$$
+The MSE for this model is $2.6*10^{-1}$
+The average degree is 43.691.
+\section{Problem 2}
+We constructed the graph shown in figure. The graph has 2866 edges and 348 nodes in total.
 \section{Problem 3}
 We can find the neighbors of certain node by neighborhood() function. Then we find the core nodes with more than 200 neighbors.There are 40 core nodes in total, and their average degree is 279.375.
 To analyze the personal network, we choose node 1 as the core node. We can see the personal network of node 1 from the figure \ref{fig:p3_1}.
