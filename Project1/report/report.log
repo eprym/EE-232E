@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  16 MAY 2016 03:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  16 MAY 2016 20:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -308,7 +308,11 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfig@top=\skip51
 \subfig@bottom=\skip52
 )
-(./report.aux)
+(./report.aux
+
+LaTeX Warning: Label `fig:p5_12' multiply defined.
+
+)
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -327,8 +331,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 \AtBeginShipoutBox=\box30
 Package hyperref Info: Link coloring OFF on input line 9.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -384,263 +387,371 @@ Package caption Info: End \AtBeginDocument code.
 \tf@toc=\write4
 \openout4 = `report.toc'.
 
- [2] <3_1.png, id=81, 481.8pt x 481.8pt>
-File: 3_1.png Graphic file (type png)
- <use 3_1.png>
-Package pdftex.def Info: 3_1.png used on input line 38.
+ [2] <1_1.png, id=85, 481.8pt x 481.8pt>
+File: 1_1.png Graphic file (type png)
+ <use 1_1.png>
+Package pdftex.def Info: 1_1.png used on input line 27.
 (pdftex.def)             Requested size: 276.00105pt x 276.01096pt.
 
-<3_2.png, id=83, 481.8pt x 481.8pt>
+<1_2.png, id=88, 481.8pt x 481.8pt>
+File: 1_2.png Graphic file (type png)
+ <use 1_2.png>
+Package pdftex.def Info: 1_2.png used on input line 39.
+(pdftex.def)             Requested size: 276.00105pt x 276.01096pt.
+ [3 <./1_1.png>] [4 <./1_2.png>] <3_1.png, id=109, 481.8pt x 481.8pt>
+File: 3_1.png Graphic file (type png)
+ <use 3_1.png>
+Package pdftex.def Info: 3_1.png used on input line 52.
+(pdftex.def)             Requested size: 276.00105pt x 276.01096pt.
+
+<3_2.png, id=110, 481.8pt x 481.8pt>
 File: 3_2.png Graphic file (type png)
  <use 3_2.png>
-Package pdftex.def Info: 3_2.png used on input line 58.
+Package pdftex.def Info: 3_2.png used on input line 72.
 (pdftex.def)             Requested size: 137.9979pt x 137.99812pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 
  []
 
-<3_4.png, id=84, 481.8pt x 481.8pt>
+<3_4.png, id=111, 481.8pt x 481.8pt>
 File: 3_4.png Graphic file (type png)
  <use 3_4.png>
-Package pdftex.def Info: 3_4.png used on input line 58.
+Package pdftex.def Info: 3_4.png used on input line 72.
 (pdftex.def)             Requested size: 137.9979pt x 137.99812pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
 
  []
 
-<3_6.png, id=85, 481.8pt x 481.8pt>
+<3_6.png, id=112, 481.8pt x 481.8pt>
 File: 3_6.png Graphic file (type png)
  <use 3_6.png>
-Package pdftex.def Info: 3_6.png used on input line 58.
+Package pdftex.def Info: 3_6.png used on input line 72.
 (pdftex.def)             Requested size: 137.9979pt x 137.99812pt.
 
-<3_3.png, id=86, 481.8pt x 481.8pt>
+<3_3.png, id=113, 481.8pt x 481.8pt>
 File: 3_3.png Graphic file (type png)
  <use 3_3.png>
-Package pdftex.def Info: 3_3.png used on input line 68.
+Package pdftex.def Info: 3_3.png used on input line 82.
 (pdftex.def)             Requested size: 137.9979pt x 137.99812pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
 []|\OT1/cmr/m/n/10 Com-mu-nity dis-tri-bu-tion for
  []
 
-<3_5.png, id=87, 481.8pt x 481.8pt>
+<3_5.png, id=114, 481.8pt x 481.8pt>
 File: 3_5.png Graphic file (type png)
  <use 3_5.png>
-Package pdftex.def Info: 3_5.png used on input line 68.
+Package pdftex.def Info: 3_5.png used on input line 82.
 (pdftex.def)             Requested size: 137.9979pt x 137.99812pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
 []|\OT1/cmr/m/n/10 Com-mu-nity dis-tri-bu-tion for
  []
 
-<3_7.png, id=88, 481.8pt x 481.8pt>
+<3_7.png, id=115, 481.8pt x 481.8pt>
 File: 3_7.png Graphic file (type png)
  <use 3_7.png>
-Package pdftex.def Info: 3_7.png used on input line 68.
+Package pdftex.def Info: 3_7.png used on input line 82.
 (pdftex.def)             Requested size: 137.9979pt x 137.99812pt.
 
 
-LaTeX Warning: Float too large for page by 23.99437pt on input line 72.
+LaTeX Warning: Float too large for page by 23.99437pt on input line 86.
 
 Missing character: There is no ï in font cmr10!
 Missing character: There is no ¿ in font cmr10!
 Missing character: There is no ¼ in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--91
+Underfull \hbox (badness 10000) in paragraph at lines 47--105
 
  []
 
-[3] [4 <./3_1.png>] [5 <./3_2.png> <./3_4.png> <./3_6.png> <./3_3.png> <./3_5.p
-ng> <./3_7.png>] <p4_1.png, id=121, 481.8pt x 481.8pt>
+[5 <./3_1.png>] <p4_1.png, id=125, 481.8pt x 481.8pt>
 File: p4_1.png Graphic file (type png)
  <use p4_1.png>
-Package pdftex.def Info: p4_1.png used on input line 96.
+Package pdftex.def Info: p4_1.png used on input line 110.
 (pdftex.def)             Requested size: 276.00105pt x 276.01096pt.
 
-<p4_2_fgc.png, id=125, 481.8pt x 481.8pt>
+<p4_2_fgc.png, id=129, 481.8pt x 481.8pt>
 File: p4_2_fgc.png Graphic file (type png)
  <use p4_2_fgc.png>
-Package pdftex.def Info: p4_2_fgc.png used on input line 118.
+Package pdftex.def Info: p4_2_fgc.png used on input line 132.
 (pdftex.def)             Requested size: 137.9979pt x 137.99812pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
 
  []
 
-<p4_2_ebc.png, id=126, 481.8pt x 481.8pt>
+<p4_2_ebc.png, id=130, 481.8pt x 481.8pt>
 File: p4_2_ebc.png Graphic file (type png)
  <use p4_2_ebc.png>
-Package pdftex.def Info: p4_2_ebc.png used on input line 118.
+Package pdftex.def Info: p4_2_ebc.png used on input line 132.
 (pdftex.def)             Requested size: 137.9979pt x 137.99812pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
 
  []
 
-<p4_2_ifc.png, id=127, 481.8pt x 481.8pt>
+<p4_2_ifc.png, id=131, 481.8pt x 481.8pt>
 File: p4_2_ifc.png Graphic file (type png)
  <use p4_2_ifc.png>
-Package pdftex.def Info: p4_2_ifc.png used on input line 118.
+Package pdftex.def Info: p4_2_ifc.png used on input line 132.
 (pdftex.def)             Requested size: 137.9979pt x 137.99812pt.
 
-<density_compare_fgc.png, id=128, 481.8pt x 481.8pt>
+<density_compare_fgc.png, id=132, 481.8pt x 481.8pt>
 File: density_compare_fgc.png Graphic file (type png)
 
 <use density_compare_fgc.png>
-Package pdftex.def Info: density_compare_fgc.png used on input line 128.
+Package pdftex.def Info: density_compare_fgc.png used on input line 142.
 (pdftex.def)             Requested size: 137.9979pt x 137.99812pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
 
  []
 
-<density_compare_ebc.png, id=129, 481.8pt x 481.8pt>
+<density_compare_ebc.png, id=133, 481.8pt x 481.8pt>
 File: density_compare_ebc.png Graphic file (type png)
 
 <use density_compare_ebc.png>
-Package pdftex.def Info: density_compare_ebc.png used on input line 128.
+Package pdftex.def Info: density_compare_ebc.png used on input line 142.
 (pdftex.def)             Requested size: 137.9979pt x 137.99812pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
 
  []
 
 
-Underfull \hbox (badness 7186) in paragraph at lines 128--128
+Underfull \hbox (badness 7186) in paragraph at lines 142--142
 []|\OT1/cmr/m/n/10 The com-par-i-son re-sults for
  []
 
-<density_compare_ifc.png, id=130, 481.8pt x 481.8pt>
+<density_compare_ifc.png, id=134, 481.8pt x 481.8pt>
 File: density_compare_ifc.png Graphic file (type png)
 
 <use density_compare_ifc.png>
-Package pdftex.def Info: density_compare_ifc.png used on input line 128.
+Package pdftex.def Info: density_compare_ifc.png used on input line 142.
 (pdftex.def)             Requested size: 137.9979pt x 137.99812pt.
 
 
-LaTeX Warning: Float too large for page by 23.99437pt on input line 131.
+LaTeX Warning: Float too large for page by 23.99437pt on input line 145.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--132
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--132
-
- []
-
-[6 <./p4_1.png>] [7] [8 <./p4_2_fgc.png> <./p4_2_ebc.png> <./p4_2_ifc.png> <./d
-ensity_compare_fgc.png> <./density_compare_ebc.png> <./density_compare_ifc.png>
-]
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
+Underfull \hbox (badness 10000) in paragraph at lines 107--146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--204
+Underfull \hbox (badness 10000) in paragraph at lines 107--146
+
+ []
+
+[6] [7 <./3_2.png> <./3_4.png> <./3_6.png> <./3_3.png> <./3_5.png> <./3_7.png>]
+[8 <./p4_1.png>] [9] [10 <./p4_2_fgc.png> <./p4_2_ebc.png> <./p4_2_ifc.png> <./
+density_compare_fgc.png> <./density_compare_ebc.png> <./density_compare_ifc.png
+>] <5_1.png, id=179, 834.11626pt x 576.1525pt>
+File: 5_1.png Graphic file (type png)
+ <use 5_1.png>
+Package pdftex.def Info: 5_1.png used on input line 174.
+(pdftex.def)             Requested size: 137.9979pt x 95.316pt.
+
+<5_2.png, id=180, 834.11626pt x 576.1525pt>
+File: 5_2.png Graphic file (type png)
+ <use 5_2.png>
+Package pdftex.def Info: 5_2.png used on input line 182.
+(pdftex.def)             Requested size: 137.9979pt x 95.316pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--187
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--204
+Underfull \hbox (badness 10000) in paragraph at lines 164--187
 
  []
 
-[9] <7_1.png, id=165, 481.8pt x 481.8pt>
+<5_3.png, id=182, 834.11626pt x 576.1525pt>
+File: 5_3.png Graphic file (type png)
+ <use 5_3.png>
+Package pdftex.def Info: 5_3.png used on input line 197.
+(pdftex.def)             Requested size: 137.9979pt x 95.316pt.
+
+<5_4.png, id=183, 834.11626pt x 576.1525pt>
+File: 5_4.png Graphic file (type png)
+ <use 5_4.png>
+Package pdftex.def Info: 5_4.png used on input line 205.
+(pdftex.def)             Requested size: 137.9979pt x 95.316pt.
+ [11 <./5_1.png> <./5_2.png> <./5_3.png> <./5_4.png>] <5_5.png, id=203, 834.116
+26pt x 576.1525pt>
+File: 5_5.png Graphic file (type png)
+
+<use 5_5.png>
+Package pdftex.def Info: 5_5.png used on input line 220.
+(pdftex.def)             Requested size: 137.9979pt x 95.316pt.
+ <5_6.png, id=204, 834.11626pt x 576.1525pt>
+File: 5_6.png Graphic file (type png)
+ <use 5_6.png>
+Package pdftex.def Info: 5_6.png used on input line 228.
+(pdftex.def)             Requested size: 137.9979pt x 95.316pt.
+
+<5_7.png, id=205, 834.11626pt x 576.1525pt>
+File: 5_7.png Graphic file (type png)
+ <use 5_7.png>
+Package pdftex.def Info: 5_7.png used on input line 236.
+(pdftex.def)             Requested size: 137.9979pt x 95.316pt.
+
+<5_8.png, id=206, 834.11626pt x 576.1525pt>
+File: 5_8.png Graphic file (type png)
+ <use 5_8.png>
+Package pdftex.def Info: 5_8.png used on input line 248.
+(pdftex.def)             Requested size: 137.9979pt x 95.316pt.
+
+<5_9.png, id=207, 834.11626pt x 576.1525pt>
+File: 5_9.png Graphic file (type png)
+ <use 5_9.png>
+Package pdftex.def Info: 5_9.png used on input line 256.
+(pdftex.def)             Requested size: 137.9979pt x 95.316pt.
+
+<5_10.png, id=208, 834.11626pt x 576.1525pt>
+File: 5_10.png Graphic file (type png)
+ <use 5_10.png>
+Package pdftex.def Info: 5_10.png used on input line 264.
+(pdftex.def)             Requested size: 137.9979pt x 95.316pt.
+File: 5_5.png Graphic file (type png)
+ <use 5_5.png>
+Package pdftex.def Info: 5_5.png used on input line 276.
+(pdftex.def)             Requested size: 137.9979pt x 95.316pt.
+File: 5_6.png Graphic file (type png)
+
+<use 5_6.png>
+Package pdftex.def Info: 5_6.png used on input line 284.
+(pdftex.def)             Requested size: 137.9979pt x 95.316pt.
+File: 5_7.png Graphic file (type png)
+ <use 5_7.png>
+Package pdftex.def Info: 5_7.png used on input line 292.
+(pdftex.def)             Requested size: 137.9979pt x 95.316pt.
+ [12 <./5_5.png (PNG copy)> <./5_6.png (PNG copy)> <./5_7.png (PNG copy)>] [13 
+<./5_8.png (PNG copy)> <./5_9.png (PNG copy)> <./5_10.png (PNG copy)>] [14]
+Underfull \hbox (badness 10000) in paragraph at lines 297--303
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--303
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--303
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
+
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 356--358
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--358
+
+ []
+
+<7_1.png, id=246, 481.8pt x 481.8pt>
 File: 7_1.png Graphic file (type png)
  <use 7_1.png>
-Package pdftex.def Info: 7_1.png used on input line 216.
+Package pdftex.def Info: 7_1.png used on input line 370.
 (pdftex.def)             Requested size: 137.9979pt x 137.99812pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--216
+Underfull \hbox (badness 10000) in paragraph at lines 370--370
 
  []
 
-<7_2.png, id=166, 481.8pt x 481.8pt>
+<7_2.png, id=247, 481.8pt x 481.8pt>
 File: 7_2.png Graphic file (type png)
  <use 7_2.png>
-Package pdftex.def Info: 7_2.png used on input line 216.
+Package pdftex.def Info: 7_2.png used on input line 370.
 (pdftex.def)             Requested size: 137.9979pt x 137.99812pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--216
+Underfull \hbox (badness 10000) in paragraph at lines 370--370
 
  []
 
-<7_3.png, id=167, 481.8pt x 481.8pt>
+<7_3.png, id=248, 481.8pt x 481.8pt>
 File: 7_3.png Graphic file (type png)
  <use 7_3.png>
-Package pdftex.def Info: 7_3.png used on input line 224.
+Package pdftex.def Info: 7_3.png used on input line 378.
 (pdftex.def)             Requested size: 137.9979pt x 137.99812pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
+Underfull \hbox (badness 10000) in paragraph at lines 378--378
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
+Underfull \hbox (badness 10000) in paragraph at lines 378--378
 []|\OT1/cmr/m/n/10 com-mu-nity dis-tri-bu-tion for
  []
 
-<7_4.png, id=168, 481.8pt x 481.8pt>
+<7_4.png, id=249, 481.8pt x 481.8pt>
 File: 7_4.png Graphic file (type png)
  <use 7_4.png>
-Package pdftex.def Info: 7_4.png used on input line 224.
+Package pdftex.def Info: 7_4.png used on input line 378.
 (pdftex.def)             Requested size: 137.9979pt x 137.99812pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
+Underfull \hbox (badness 10000) in paragraph at lines 378--378
 
  []
 
-[10 <./7_1.png> <./7_2.png> <./7_3.png> <./7_4.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 232--242
+
+Underfull \hbox (badness 10000) in paragraph at lines 386--396
 
  []
 
-<7_5.png, id=183, 481.8pt x 481.8pt>
+<7_5.png, id=252, 481.8pt x 481.8pt>
 File: 7_5.png Graphic file (type png)
  <use 7_5.png>
-Package pdftex.def Info: 7_5.png used on input line 245.
+Package pdftex.def Info: 7_5.png used on input line 399.
 (pdftex.def)             Requested size: 276.00105pt x 276.01096pt.
 
-<7_6.png, id=184, 481.8pt x 481.8pt>
+<7_6.png, id=253, 481.8pt x 481.8pt>
 File: 7_6.png Graphic file (type png)
  <use 7_6.png>
-Package pdftex.def Info: 7_6.png used on input line 252.
+Package pdftex.def Info: 7_6.png used on input line 406.
 (pdftex.def)             Requested size: 276.00105pt x 276.01096pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 257.
- [11] [12 <./7_5.png>]
-[13 <./7_6.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 257.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 411.
+ [17] [18 <./7_1.png> <./7_2.png> <./7_3.png> <./7_4.png>] [19 <./7_5.png>] [20
+ <./7_6.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 411.
  (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 257.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 257.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 411.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 411.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 8BADA1C6F7259708258869978E3E1324;722.
+(rerunfilecheck)             Checksum: BAB6E15BF4D1A0FA255A6A60A411947D;767.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 257.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 411.
  ) 
 Here is how much of TeX's memory you used:
- 7701 strings out of 493089
- 116755 string characters out of 6134842
- 209399 words of memory out of 5000000
- 11047 multiletter control sequences out of 15000+600000
+ 7823 strings out of 493089
+ 118174 string characters out of 6134842
+ 212934 words of memory out of 5000000
+ 11129 multiletter control sequences out of 15000+600000
  9023 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,9n,92p,804b,454s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -655,10 +766,10 @@ cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loca
 l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on report.pdf (13 pages, 1133736 bytes).
+Output written on report.pdf (20 pages, 2048587 bytes).
 PDF statistics:
- 251 PDF objects out of 1000 (max. 8388607)
- 183 compressed objects within 2 object streams
- 43 named destinations out of 1000 (max. 500000)
- 197 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 336 PDF objects out of 1000 (max. 8388607)
+ 242 compressed objects within 3 object streams
+ 71 named destinations out of 1000 (max. 500000)
+ 265 words of extra memory for PDF output out of 10000 (max. 10000000)
 

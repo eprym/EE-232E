@@ -18,17 +18,31 @@
 \tableofcontents
 \newpage
 \section{Problem 1}
-We read the txt file and construct the graph.
+We read the txt file and construct the graph.\\
 After we constructed the graph, we found that the graph is connected.\\
 The diameter is 8.\\
-Intuitively, we believer that the distribution should be $$\frac{1}{y} \sim a*x^{p}+b$$\\
+The degree distribution is shown in figure\ref{fig:p1_1}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.8\textwidth]{1_1.png}
+\caption{degree distribution}
+\label{fig:p1_1}
+\end{figure}\\
+By looking at the graph, intuitively, we believer that the distribution should be $$\frac{1}{y} \sim a*x^{p}+b$$\\
 which means frequency should be inverse proportional  to $a*degree^{p}+b$\\
 After fitting the data, the coeficient is a=0.042,b=40.39,p=2.065\\
 So the model is $$y=\frac{1}{0.042*x^{2.065}+40.39}$$
-The MSE for this model is $2.6*10^{-1}$
+The MSE for this model is $2.6336*10^{-7}$,which is quist low. On top of that, we can see the fitted model in the figure \ref{fig:p1_2}, which is very reasonable.\\
+So I think is model is very good to describe the degree distribution.\\
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.8\textwidth]{1_2.png}
+\caption{Personal Network of core node 1}
+\label{fig:p1_2}
+\end{figure}\\
 The average degree is 43.691.
 \section{Problem 2}
-We constructed the graph shown in figure. The graph has 2866 edges and 348 nodes in total.
+We constructed the graph shown in figure \ref{fig:p3_1}. The graph has 2866 edges and 348 nodes in total.
 \section{Problem 3}
 We can find the neighbors of certain node by neighborhood() function. Then we find the core nodes with more than 200 neighbors.There are 40 core nodes in total, and their average degree is 279.375.
 To analyze the personal network, we choose node 1 as the core node. We can see the personal network of node 1 from the figure \ref{fig:p3_1}.
@@ -145,7 +159,147 @@ After deletion&0.4418533& 0.4161461& 0.4180077\\
 \end{tabular}
 \end{adjustbox}
 \end{table}
+\newpage
+\section{Problem 5}
+We follow the personal network built in Problem3 and analysis the embeddednes and dipersion of each node.\\
+We plot the embeddedness and dispersion in figure\ref{fig:p5_12}.\\
+\begin{figure}[htbp]
+\centering
+\subfigure{
+\begin{minipage}[b]{0.4\textwidth}
+\includegraphics[width=1\textwidth]{5_1.png} 
+\caption*{embeddedness}
+\end{minipage}
+\label{fig:p5_1}
+}
+\subfigure{
+\begin{minipage}[b]{0.4\textwidth}
+\includegraphics[width=1\textwidth]{5_2.png}
+\caption*{dispersion}
+\end{minipage}
+\label{fig:p5_2}
+%\captionsetup{justification=centering,margin=2cm}
+}
+\caption{embedded and dispersion for each node}
+\label{fig:p5_12}
+\end{figure}\\
+\\
 
+After collecting the dispersion and embeddedness, we plot the graph for embeddedness and dispersion against index in figure \ref{fig:p5_34}.\\
+\begin{figure}[htbp]
+\centering
+\subfigure{
+\begin{minipage}[b]{0.4\textwidth}
+\includegraphics[width=1\textwidth]{5_3.png} 
+\caption*{Embeddedness}
+\end{minipage}
+\label{fig:p5_3}
+}
+\subfigure{
+\begin{minipage}[b]{0.4\textwidth}
+\includegraphics[width=1\textwidth]{5_4.png}
+\caption*{Dispersion}
+\end{minipage}
+\label{fig:p5_4}
+%\captionsetup{justification=centering,margin=2cm}
+}
+\caption{distribution of embeddedness and dispersion}
+\label{fig:p5_34}
+\end{figure}
+We can see that most of the nodes have a very small dispersion, while embeddedness spread widely in the range in 0 to 200, while a small number of nodes have embeddedness greater than 200. 
+\newpage
+We choose node 1,379,484 and show using fast greedy to find the node with largest $embeddedness$, $dispersion$ and $\frac{dispersion}{embeddedness}$, shown in figure\ref{fig:p5_567}, figure\ref{fig:p5_8910} and figure \ref{fig:p5_111213} \\ 
+\begin{figure}[htbp]
+\centering
+\subfigure{
+\begin{minipage}[b]{0.4\textwidth}
+\includegraphics[width=1\textwidth]{5_5.png} 
+\caption*{max dispersion}
+\end{minipage}
+\label{fig:p5_5}
+}
+\subfigure{
+\begin{minipage}[b]{0.4\textwidth}
+\includegraphics[width=1\textwidth]{5_6.png}
+\caption*{max embeddedness}
+\end{minipage}
+\label{fig:p5_6}
+%\captionsetup{justification=centering,margin=2cm}
+}
+\subfigure{
+\begin{minipage}[b]{0.4\textwidth}
+\includegraphics[width=1\textwidth]{5_7.png}
+\caption*{max ratio}
+\end{minipage}
+\label{fig:p5_7}
+%\captionsetup{justification=centering,margin=2cm}
+}
+\caption{}
+\label{fig:p5_567}
+\end{figure}
+\begin{figure}[htbp]
+\centering
+\subfigure{
+\begin{minipage}[b]{0.4\textwidth}
+\includegraphics[width=1\textwidth]{5_8.png} 
+\caption*{max dispersion}
+\end{minipage}
+\label{fig:p5_8}
+}
+\subfigure{
+\begin{minipage}[b]{0.4\textwidth}
+\includegraphics[width=1\textwidth]{5_9.png}
+\caption*{max embeddedness}
+\end{minipage}
+\label{fig:p5_9}
+%\captionsetup{justification=centering,margin=2cm}
+}
+\subfigure{
+\begin{minipage}[b]{0.4\textwidth}
+\includegraphics[width=1\textwidth]{5_10.png}
+\caption*{max ratio}
+\end{minipage}
+\label{fig:p5_10}
+%\captionsetup{justification=centering,margin=2cm}
+}
+\caption{}
+\label{fig:p5_8910}
+\end{figure}
+\begin{figure}[htbp]
+\centering
+\subfigure{
+\begin{minipage}[b]{0.4\textwidth}
+\includegraphics[width=1\textwidth]{5_5.png} 
+\caption*{max dispersion}
+\end{minipage}
+\label{fig:p5_11}
+}
+\subfigure{
+\begin{minipage}[b]{0.4\textwidth}
+\includegraphics[width=1\textwidth]{5_6.png}
+\caption*{max embeddedness}
+\end{minipage}
+\label{fig:p5_12}
+%\captionsetup{justification=centering,margin=2cm}
+}
+\subfigure{
+\begin{minipage}[b]{0.4\textwidth}
+\includegraphics[width=1\textwidth]{5_7.png}
+\caption*{max ratio}
+\end{minipage}
+\label{fig:p5_13}
+%\captionsetup{justification=centering,margin=2cm}
+}
+\caption{}
+\label{fig:p5_111213}
+\end{figure}
+\newpage
+~\\
+For embeddedness, obviously large embeddedness means two nodes or two persons are closed related because they have many shared friends. However when embeddedness is large, we cannot tell how close the two persons are based on the embeddedness. For example, you and girlfrineds just have 50 mutual friends, while you and your classmantes have 100 mutual friends.\\
+\\
+For dispersion, large dispersion should be inversely related to how close it is between two persons. For example, two graduate students have separate social networks in their undergraduate school, so it is normal that one's friends does not know the other's friends in his undergraduate social cycles. However, if they are from the same college, they may know other's friends in their undergraduate social cycles. \\
+\\
+For the ratio of embeddedness and dispersion, we think it is a normalized feature to describe the relation between two person. When two person are closely related, they usually have a large embeddedness and small dispersion because they may have almost same network. So it is a better indicator of two persons' relation, whereas high dispersion over embeddedness means not close relation and low ratio means close relation.\\
 \section{Problem 6}
 In this problem, we choose to use the cluster coefficient and density to define two types of communities in the 41 personal networks. We try to find the community indices that have maximal and minimal results and compare them to draw the conclusion.
 \subsection{Clustering Coefficient}
