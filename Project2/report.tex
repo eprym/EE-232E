@@ -1,0 +1,132 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\newcommand{\tabincell}[2]{\begin{tabular}{@{}#1@{}}#2\end{tabular}}
+
+\begin{document} %This is where document begins
+\begin{titlepage}
+\title{EE 232E \\Graphs and Network Flows\\Final Project\\Winter 2016} 
+\author{Liqiang Yu, Rongjing Bai, Yunwen Zhu\\
+904592975, 204587519, 104593417}  %change your ID here
+\date{05-28-2016}
+\end{titlepage}
+
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+
+\section{Problem1}\label{prob:p1}
+We use python to parse the data in actor\_movies.txt and actress\_movies.txt to merge the information about actor/actress. And when parsing the data, we remove those with less than five movies. Also, we create actor\_id parameter on basis of the order of actor/actress for convenience in mapping for the name. To help mapping with actor\_id and actor's name, we write actor\_id.py and create the correspoinding mapping actor\_id.txt. Finally, there are totally 244300 actor/actress in the merge\_actor.txt and the corresponding parsing program is merge\_actor.py. 
+
+
+\section{Problem2}
+In this problem, we create the weighted directed graph based on the formula $\frac{|Si\cap Sj|}{|Si|}$, where Si = $\lbrace m\mid i\in V$,m is a movie in which i has acted$\rbrace$. We first create a dictionary movie\_actor with the movie as the key and the actors that participate in this movie as the value for quick search. Then we create another dictionary edge\_weight with the two actor\_ids as the key and the number of their same movies as the value. Thus, by traversing each movie with more than two actors involved, we create the edge according to the edge\_weight with the two actor as the vertices and calculated weight. Finally, there are 58026910 edges in this graph in edge\_weight.txt and the corresponding program is create\_graph.py. Also, note that there are many directed edges with weight = 1, that means the movies of that actor totally intersected in the movies of another actor, which fit well in reality as well as the data. 
+
+
+\section{Problem 3}
+We run the pagerank algorithm with damping = 0.85 on our weighted directed graph and we get the names of those in top 10 pageranks with our actor\_id.txt. The names are listed in Table \ref{tb:3_1}.\\
+\\
+
+\begin {table}[htbp]
+\caption{names of actors with top 10 pageranks}
+\begin{adjustbox}{center}
+\label{tb:3_1}
+\begin{tabular}{|c|c|}
+\hline
+Flowers, Bess & 0.0001580023\\
+\hline
+Tatasciore, Fred & 0.0001377731 \\
+\hline
+Blum, Steve (IX) & 0.0001340366 \\
+\hline
+Harris, Sam (II) & 0.0001333384 \\
+\hline
+Jeremy, Ron & 0.0001270027 \\
+\hline
+Miller, Harold (I) & 0.0001165205 \\
+\hline
+Lowenthal, Yuri & 0.0001090534 \\
+\hline
+Downes, Robin Atkin & 0.000104297  \\
+\hline
+Phelps, Lee (I) & 0.0001012679  \\
+\hline
+Sayre, Jeffrey & 0.0001006508  \\
+\hline
+\end{tabular}
+\end{adjustbox}
+\end{table}
+
+From the results of Table \ref{tb:3_1}, we just know the name of a few of them, but these top 10  are certainly not the famous stars. Thus, we list the names of famous stars in our opinion and then calculate their corresponding pagerank. Their names and pageranks are listed in Table \ref{tb:3_2}.\\
+\\
+
+\begin {table}[htbp]
+\caption{names and pageranks of 10 famous stars}
+\begin{adjustbox}{center}
+\label{tb:3_2}
+\begin{tabular}{|c|c|}
+\hline
+Page, Ellen &  1.172932e-05\\
+\hline
+Portman, Natalie & 2.365215e-05 \\
+\hline
+Linney, Laura & 1.848715e-05 \\
+\hline
+Rudd, Paul (I) & 2.888519e-05 \\
+\hline
+Dennings, Kat & 9.740525e-06 \\
+\hline
+Lively, Blake & 3.248758e-05 \\
+\hline
+Clooney, George & 0.0001090534 \\
+\hline
+Reynolds, Ryan (I) & 2.143052e-05 \\
+\hline
+Hanks, Colin & 1.475533e-05 \\
+\hline
+Radcliffe, Daniel & 1.430697e-05 \\
+\hline
+\end{tabular}
+\end{adjustbox}
+\end{table}
+From the Table \ref{tb:3_2}, out of expection, the famous stars we choose are all have a relatively low pagerank, especially when compared with those top 10 pageranks.There are many reasons for this phenomenon that we are not familar with those high pagerank scores. First, due to our subjectivity and our time and country, we may not actually know certain movie stars from other countries but still be well-known in their country. Or these movie stars were really famous in their times but are not sound familar to our generation. Secondly, high rankpage score may not mean great reputation. Those not famous actors tend to try in every kind of movie and act in many movies just as a supporting role. Thus, they do have a closer relationship and connection to many other actors then have a high pagerank score. \\
+\\In order to find the 10 most significant pairs, we convert our original directed graph into the undirected one with weight as the mean of the directed edges. Then we sort the weight of all edges, and find out the top 10 as our significant pairs. After that, we use our actor\_id.txt to map into their corresponding names. The names of signicicant pairs are shown in the Table \ref{tb:3_3}.
+\begin {table}[htbp]
+\caption{10 significant pairs}
+\begin{adjustbox}{center}
+\label{tb:3_3}
+\begin{tabular}{|c|c|}
+\hline
+Mounir, Dean &  Bailey, Carla Jo\\
+\hline
+Kim, Su-hyeon (II) & Phillipson, Caspar \\
+\hline
+Harvey, Nita & Gamal, Mimi \\
+\hline
+Perlmutter, Kalle & Evans, Kahshanna \\
+\hline
+Stefancyk, Bryan & de Carvalho, Inalda \\
+\hline
+Matthews, Liam (III) & DuChesne, Derek \\
+\hline
+Beltrán, Pedro (I) & McNicol, Valerie (III) \\
+\hline
+Kasten, Kristina (II) & Gomide, Tânia \\
+\hline
+Wagner, David (I)& Zhao, Jun (I) \\
+\hline
+Boulanger, Véronique & Carson, Lisa Nicole \\
+\hline
+\end{tabular}
+\end{adjustbox}
+\end{table}
+From the Table \ref{tb:3_3}, we can see that these pairs may occur between different actors and  actresses, but these actors all have relatively high weight with their connected edges. That means that they have collaborated with many of other actors in most of their participating movies especially to those whose movies are totally intersected with other actors. However, we actually barely know their names and they do not appear in the top pagerank as well. Actually, their page ranks are relatively low compared with our top pageranks. As, the pageranks do not simplycount for the simple two vertices'links and they consider for the total connectivity.\\
+\\
+As for the reason why the names in the pairs collaborate in so many movies but we do not know well, there are maybe two of them from our assumption. First, maybe we really are not familiar with them. Actually, when we try to search their names in the Google, we find out that some of them are not our generation. And movies in that age is definitely limited in the numbers, thus actors of that age are more likely to collaborate. Also, some of the actors are from some country that we are not familar with, thus these pairs may sound pretty famous to people from their country. Secondly, these actors may always act in the same kind of movies, thus their chance of co-acting with the same group of people are relatively high.
+
+
+
+\end{document}
