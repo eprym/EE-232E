@@ -1,55 +1,59 @@
+<<<<<<< Updated upstream
 This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014) (preloaded format=xelatex 2015.10.13)  16 MAY 2016 21:22
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  16 MAY 2016 21:00
+>>>>>>> Stashed changes
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **report.tex
 (./report.tex
-LaTeX2e <2014/05/01>
-Babel <3.9k> and hyphenation patterns for 78 languages loaded.
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
-\c@part=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\c@figure=\count86
-\c@table=\count87
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks14
 \ex@=\dimen103
 ))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen104
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count88
+\inf@bad=\count87
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count89
-\leftroot@=\count90
+\uproot@=\count88
+\leftroot@=\count89
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count91
-\DOTSCASE@=\count92
+\classnum@=\count90
+\DOTSCASE@=\count91
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
@@ -58,15 +62,15 @@ LaTeX Info: Redefining \cdots on input line 466.
 \big@size=\dimen105
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count93
-\c@MaxMatrixCols=\count94
+\macc@depth=\count92
+\c@MaxMatrixCols=\count93
 \dotsspace@=\muskip10
-\c@parentequation=\count95
-\dspbrk@lvl=\count96
+\c@parentequation=\count94
+\dspbrk@lvl=\count95
 \tag@help=\toks15
-\row@=\count97
-\column@=\count98
-\maxfields@=\count99
+\row@=\count96
+\column@=\count97
+\maxfields@=\count98
 \andhelp@=\toks16
 \eqnshift@=\dimen106
 \alignsep@=\dimen107
@@ -81,14 +85,14 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
@@ -99,7 +103,7 @@ Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is not detected.
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -110,10 +114,9 @@ Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode not found.
+Package pdftexcmds Info: \pdfdraftmode found.
 Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
 Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
 )
@@ -130,29 +133,29 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
 )
-(/usr/local/texlive/2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/auxhook.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen112
-\Hy@linkcounter=\count100
-\Hy@pagecounter=\count101
+\Hy@linkcounter=\count99
+\Hy@pagecounter=\count100
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/pd1enc.def
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count102
+\Hy@SavedSpaceFactor=\count101
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4443.
@@ -162,15 +165,15 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count103
+\c@Hy@tempcnt=\count102
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen113
-\Fld@menulength=\count104
+\Fld@menulength=\count103
 \Field@Width=\dimen114
 \Fld@charsize=\dimen115
 Package hyperref Info: Hyper figures OFF on input line 6295.
@@ -182,113 +185,100 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count105
-\c@Item=\count106
-\c@Hfootnote=\count107
+\Hy@abspage=\count104
+\c@Item=\count105
+\c@Hfootnote=\count106
 )
 
-Package hyperref Message: Driver (autodetected): hxetex.
+Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2012/11/06 v6.83m Hyperref driver for XeTeX
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count107
+\c@bookmark@seq@number=\count108
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2012/11/06 v6.83m Hyperref: PDF Unicode definition (HO)
-)
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/stringenc.sty
-Package: stringenc 2011/12/02 v1.10 Convert strings between diff. encodings (HO
-)
-)
-\pdfm@box=\box28
-\c@Hy@AnnotLevel=\count108
-\HyField@AnnotCount=\count109
-\Fld@listcount=\count110
-\c@bookmark@seq@number=\count111
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
-Package rerunfilecheck Info: Feature \pdfmdfivesum is not available
-(rerunfilecheck)             (e.g. pdfTeX or LuaTeX with package `pdftexcmds').
-
-(rerunfilecheck)             Therefore file contents cannot be checked efficien
-tly
-(rerunfilecheck)             and the loading of the package is aborted.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
 )
 \Hy@SectionHShift=\skip46
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: xetex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 94.
 
-(/usr/local/texlive/2014/texmf-dist/tex/xelatex/xetex-def/xetex.def
-File: xetex.def 2014/04/28 v4.01 LaTeX color/graphics driver for XeTeX (RRM/JK)
-
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count109
 ))
 \Gin@req@height=\dimen116
 \Gin@req@width=\dimen117
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2014/05/09 v2.6d package option processing (HA)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-(/usr/local/texlive/2014/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks20
 \XKV@tempa@toks=\toks21
-\XKV@depth=\count112
-File: xkeyval.tex 2014/05/09 v2.6d key=value parser (HA)
+)
+\XKV@depth=\count110
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/adjustbox/adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
 -ends (calc, etex, pgfmath)
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/adjustbox/trimclip.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/adjustbox/trimclip.sty
 Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/collectbox/collectbox.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box29
+\collectedbox=\box28
 )
 \tc@llx=\dimen118
 \tc@lly=\dimen119
 \tc@urx=\dimen120
 \tc@ury=\dimen121
-Package trimclip Info: Using driver 'tc-xetex.def'.
+Package trimclip Info: Using driver 'tc-pdftex.def'.
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/adjustbox/tc-xetex.def
-File: tc-xetex.def 2012/05/13 v1.0 Clipping driver for xetex
+(/usr/local/texlive/2015/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 ))
 \adjbox@Width=\dimen122
 \adjbox@Height=\dimen123
 \adjbox@Depth=\dimen124
 \adjbox@Totalheight=\dimen125
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
-\c@checkoddpage=\count113
+\c@checkoddpage=\count111
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/varwidth/varwidth.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box30
-\sift@deathcycles=\count114
+\@vwid@box=\box29
+\sift@deathcycles=\count112
 \@vwid@loff=\dimen126
 \@vwid@roff=\dimen127
 ))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption3.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen128
@@ -299,10 +289,10 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 \caption@parindent=\dimen133
 \caption@hangindent=\dimen134
 )
-\c@ContinuedFloat=\count115
+\c@ContinuedFloat=\count113
 Package caption Info: hyperref package is loaded.
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/subfigure/subfigure.sty
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigtopskip=\skip47
 \subfigcapskip=\skip48
@@ -310,15 +300,15 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigbottomskip=\skip49
 \subfigcapmargin=\dimen136
 \subfiglabelskip=\skip50
-\c@subfigure=\count116
-\c@lofdepth=\count117
-\c@subtable=\count118
-\c@lotdepth=\count119
+\c@subfigure=\count114
+\c@lofdepth=\count115
+\c@subtable=\count116
+\c@lotdepth=\count117
 
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-(/usr/local/texlive/2014/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfigure/subfigure.cfg)
 \subfig@top=\skip51
 \subfig@bottom=\skip52
 )
@@ -339,18 +329,20 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-\AtBeginShipoutBox=\box31
+\AtBeginShipoutBox=\box30
 Package hyperref Info: Link coloring OFF on input line 9.
+<<<<<<< Updated upstream
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
+=======
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+>>>>>>> Stashed changes
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count120
+\c@section@level=\count118
 )
 LaTeX Info: Redefining \ref on input line 9.
 LaTeX Info: Redefining \pageref on input line 9.
@@ -360,20 +352,47 @@ LaTeX Info: Redefining \nameref on input line 9.
 \@outlinefile=\write3
 \openout3 = `report.out'.
 
+
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count119
+\scratchdimen=\dimen137
+\scratchbox=\box31
+\nofMPsegments=\count120
+\nofMParguments=\count121
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count122
+\MPscratchDim=\dimen138
+\MPnumerator=\count123
+\makeMPintoPDFobject=\count124
+\everyMPtoPDFconversion=\toks23
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
-File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
-
-)
 [1
 
-] (./report.toc)
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./report.toc)
 \tf@toc=\write4
 \openout4 = `report.toc'.
 
+<<<<<<< Updated upstream
  [2]
 File: 1_1.png Graphic file (type QTm)
  <use  "1_1.png" >
@@ -399,6 +418,58 @@ File: 3_6.png Graphic file (type QTm)
 File: 3_3.png Graphic file (type QTm)
  <use  "3_3.png" >
 Underfull \hbox (badness 10000) in paragraph at lines 75--75
+=======
+ [2] <1_1.png, id=85, 481.8pt x 481.8pt>
+File: 1_1.png Graphic file (type png)
+ <use 1_1.png>
+Package pdftex.def Info: 1_1.png used on input line 27.
+(pdftex.def)             Requested size: 276.00105pt x 276.01096pt.
+
+<1_2.png, id=88, 481.8pt x 481.8pt>
+File: 1_2.png Graphic file (type png)
+ <use 1_2.png>
+Package pdftex.def Info: 1_2.png used on input line 39.
+(pdftex.def)             Requested size: 276.00105pt x 276.01096pt.
+ [3 <./1_1.png>] [4 <./1_2.png>] <3_1.png, id=109, 481.8pt x 481.8pt>
+File: 3_1.png Graphic file (type png)
+ <use 3_1.png>
+Package pdftex.def Info: 3_1.png used on input line 52.
+(pdftex.def)             Requested size: 276.00105pt x 276.01096pt.
+
+<3_2.png, id=110, 481.8pt x 481.8pt>
+File: 3_2.png Graphic file (type png)
+ <use 3_2.png>
+Package pdftex.def Info: 3_2.png used on input line 72.
+(pdftex.def)             Requested size: 137.9979pt x 137.99812pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+
+ []
+
+<3_4.png, id=111, 481.8pt x 481.8pt>
+File: 3_4.png Graphic file (type png)
+ <use 3_4.png>
+Package pdftex.def Info: 3_4.png used on input line 72.
+(pdftex.def)             Requested size: 137.9979pt x 137.99812pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+
+ []
+
+<3_6.png, id=112, 481.8pt x 481.8pt>
+File: 3_6.png Graphic file (type png)
+ <use 3_6.png>
+Package pdftex.def Info: 3_6.png used on input line 72.
+(pdftex.def)             Requested size: 137.9979pt x 137.99812pt.
+
+<3_3.png, id=113, 481.8pt x 481.8pt>
+File: 3_3.png Graphic file (type png)
+ <use 3_3.png>
+Package pdftex.def Info: 3_3.png used on input line 82.
+(pdftex.def)             Requested size: 137.9979pt x 137.99812pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+>>>>>>> Stashed changes
 
  []
 
@@ -407,9 +478,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--75
 []|\OT1/cmr/m/n/10 Com-mu-nity dis-tri-bu-tion for
  []
 
+<<<<<<< Updated upstream
 File: 3_5.png Graphic file (type QTm)
 <use  "3_5.png" >
 Underfull \hbox (badness 10000) in paragraph at lines 75--75
+=======
+<3_5.png, id=114, 481.8pt x 481.8pt>
+File: 3_5.png Graphic file (type png)
+ <use 3_5.png>
+Package pdftex.def Info: 3_5.png used on input line 82.
+(pdftex.def)             Requested size: 137.9979pt x 137.99812pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+>>>>>>> Stashed changes
 
  []
 
@@ -418,13 +499,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--75
 []|\OT1/cmr/m/n/10 Com-mu-nity dis-tri-bu-tion for
  []
 
+<<<<<<< Updated upstream
 File: 3_7.png Graphic file (type QTm)
 <use  "3_7.png" >
+=======
+<3_7.png, id=115, 481.8pt x 481.8pt>
+File: 3_7.png Graphic file (type png)
+ <use 3_7.png>
+Package pdftex.def Info: 3_7.png used on input line 82.
+(pdftex.def)             Requested size: 137.9979pt x 137.99812pt.
+
+>>>>>>> Stashed changes
 
 LaTeX Warning: Float too large for page by 23.99437pt on input line 79.
 
-Missing character: There is no ï¿¼ in font cmr10!
+Missing character: There is no ï in font cmr10!
+Missing character: There is no ¿ in font cmr10!
+Missing character: There is no ¼ in font cmr10!
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 10000) in paragraph at lines 40--98
 
  []
@@ -455,6 +548,63 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--135
 File: density_compare_ebc.png Graphic file (type QTm)
 <use  "density_compare_ebc.png" >
 Underfull \hbox (badness 10000) in paragraph at lines 135--135
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 47--105
+
+ []
+
+[5 <./3_1.png>] <p4_1.png, id=125, 481.8pt x 481.8pt>
+File: p4_1.png Graphic file (type png)
+ <use p4_1.png>
+Package pdftex.def Info: p4_1.png used on input line 110.
+(pdftex.def)             Requested size: 276.00105pt x 276.01096pt.
+
+<p4_2_fgc.png, id=129, 481.8pt x 481.8pt>
+File: p4_2_fgc.png Graphic file (type png)
+ <use p4_2_fgc.png>
+Package pdftex.def Info: p4_2_fgc.png used on input line 132.
+(pdftex.def)             Requested size: 137.9979pt x 137.99812pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+
+ []
+
+<p4_2_ebc.png, id=130, 481.8pt x 481.8pt>
+File: p4_2_ebc.png Graphic file (type png)
+ <use p4_2_ebc.png>
+Package pdftex.def Info: p4_2_ebc.png used on input line 132.
+(pdftex.def)             Requested size: 137.9979pt x 137.99812pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+
+ []
+
+<p4_2_ifc.png, id=131, 481.8pt x 481.8pt>
+File: p4_2_ifc.png Graphic file (type png)
+ <use p4_2_ifc.png>
+Package pdftex.def Info: p4_2_ifc.png used on input line 132.
+(pdftex.def)             Requested size: 137.9979pt x 137.99812pt.
+
+<density_compare_fgc.png, id=132, 481.8pt x 481.8pt>
+File: density_compare_fgc.png Graphic file (type png)
+
+<use density_compare_fgc.png>
+Package pdftex.def Info: density_compare_fgc.png used on input line 142.
+(pdftex.def)             Requested size: 137.9979pt x 137.99812pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
+
+ []
+
+<density_compare_ebc.png, id=133, 481.8pt x 481.8pt>
+File: density_compare_ebc.png Graphic file (type png)
+
+<use density_compare_ebc.png>
+Package pdftex.def Info: density_compare_ebc.png used on input line 142.
+(pdftex.def)             Requested size: 137.9979pt x 137.99812pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
+>>>>>>> Stashed changes
 
  []
 
@@ -463,8 +613,26 @@ Underfull \hbox (badness 7186) in paragraph at lines 135--135
 []|\OT1/cmr/m/n/10 The com-par-i-son re-sults for
  []
 
+<<<<<<< Updated upstream
 File: density_compare_ifc.png Graphic file (type QTm)
 <use  "density_compare_ifc.png" >
+=======
+<density_compare_ifc.png, id=134, 481.8pt x 481.8pt>
+File: density_compare_ifc.png Graphic file (type png)
+
+<use density_compare_ifc.png>
+Package pdftex.def Info: density_compare_ifc.png used on input line 142.
+(pdftex.def)             Requested size: 137.9979pt x 137.99812pt.
+
+
+LaTeX Warning: Float too large for page by 23.99437pt on input line 145.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--146
+
+ []
+
+>>>>>>> Stashed changes
 
 LaTeX Warning: Float too large for page by 23.99437pt on input line 138.
 
@@ -496,6 +664,7 @@ File: 5_7.png Graphic file (type QTm)
  <use  "5_7.png" >
 File: 5_8.png Graphic file (type QTm)
 
+<<<<<<< Updated upstream
 <use  "5_8.png" >
 File: 5_9.png Graphic file (type QTm)
  <use  "5_9.png" >
@@ -509,6 +678,10 @@ File: 5_6.png Graphic file (type QTm)
 File: 5_7.png Graphic file (type QTm)
  <use  "5_7.png" > [11] [12] [13]
 Underfull \hbox (badness 10000) in paragraph at lines 289--295
+=======
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--303
+>>>>>>> Stashed changes
 
  []
 
@@ -522,8 +695,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 289--295
 
  []
 
+<<<<<<< Updated upstream
 [14]
 Underfull \hbox (badness 10000) in paragraph at lines 318--319
+=======
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--358
+>>>>>>> Stashed changes
 
  []
 
@@ -537,6 +715,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 348--350
 
  []
 
+<<<<<<< Updated upstream
 File: 7_1.png Graphic file (type QTm)
 <use  "7_1.png" >
 Underfull \hbox (badness 10000) in paragraph at lines 362--362
@@ -552,6 +731,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 362--362
 File: 7_3.png Graphic file (type QTm)
 <use  "7_3.png" >
 Underfull \hbox (badness 10000) in paragraph at lines 370--370
+=======
+<7_3.png, id=248, 481.8pt x 481.8pt>
+File: 7_3.png Graphic file (type png)
+ <use 7_3.png>
+Package pdftex.def Info: 7_3.png used on input line 378.
+(pdftex.def)             Requested size: 137.9979pt x 137.99812pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 378--378
+>>>>>>> Stashed changes
 
  []
 
@@ -560,9 +748,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 370--370
 []|\OT1/cmr/m/n/10 com-mu-nity dis-tri-bu-tion for
  []
 
+<<<<<<< Updated upstream
 File: 7_4.png Graphic file (type QTm)
 <use  "7_4.png" >
 Underfull \hbox (badness 10000) in paragraph at lines 370--370
+=======
+<7_4.png, id=249, 481.8pt x 481.8pt>
+File: 7_4.png Graphic file (type png)
+ <use 7_4.png>
+Package pdftex.def Info: 7_4.png used on input line 378.
+(pdftex.def)             Requested size: 137.9979pt x 137.99812pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 378--378
+>>>>>>> Stashed changes
 
  []
 
@@ -571,6 +769,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 378--388
 
  []
 
+<<<<<<< Updated upstream
 File: 7_5.png Graphic file (type QTm)
 <use  "7_5.png" >
 File: 7_6.png Graphic file (type QTm)
@@ -593,3 +792,57 @@ Here is how much of TeX's memory you used:
  53i,9n,92p,734b,453s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on report.pdf (19 pages).
+=======
+<7_5.png, id=252, 481.8pt x 481.8pt>
+File: 7_5.png Graphic file (type png)
+ <use 7_5.png>
+Package pdftex.def Info: 7_5.png used on input line 399.
+(pdftex.def)             Requested size: 276.00105pt x 276.01096pt.
+
+<7_6.png, id=253, 481.8pt x 481.8pt>
+File: 7_6.png Graphic file (type png)
+ <use 7_6.png>
+Package pdftex.def Info: 7_6.png used on input line 406.
+(pdftex.def)             Requested size: 276.00105pt x 276.01096pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 411.
+ [17] [18 <./7_1.png> <./7_2.png> <./7_3.png> <./7_4.png>] [19 <./7_5.png>] [20
+ <./7_6.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 411.
+ (./report.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 411.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 411.
+Package rerunfilecheck Info: File `report.out' has not changed.
+(rerunfilecheck)             Checksum: BAB6E15BF4D1A0FA255A6A60A411947D;767.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 411.
+ ) 
+Here is how much of TeX's memory you used:
+ 7823 strings out of 493089
+ 118174 string characters out of 6134842
+ 212934 words of memory out of 5000000
+ 11129 multiletter control sequences out of 15000+600000
+ 9023 words of font info for 33 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 53i,9n,92p,733b,454s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on report.pdf (20 pages, 2048505 bytes).
+PDF statistics:
+ 336 PDF objects out of 1000 (max. 8388607)
+ 242 compressed objects within 3 object streams
+ 71 named destinations out of 1000 (max. 500000)
+ 265 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+>>>>>>> Stashed changes
