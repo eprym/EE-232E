@@ -1,7 +1,7 @@
 library("igraph")
 dir <- dirname(sys.frame(1)$ofile)
 setwd(dir)
-#g<-read.graph("../project_2_data/movie_edge_list.txt",format="ncol",directed=FALSE)
+g<-read.graph("../project_2_data/movie_edge_list.txt",format="ncol",directed=FALSE)
 movie_interest <- c("Batman v Superman: Dawn of Justice (2016)", "Mission: Impossible - Rogue Nation (2015)",
                    "Minions (2015)")
 
@@ -22,9 +22,9 @@ for(i in 1:3){
   edge_weight <- sort(edge_weight,decreasing=TRUE)
   neighbor_name<-as.numeric(names(edge_weight[1:5]))
   neighbor_name<-V(g)[neighbor_name]$movieName
-  print(neighbor_name)
+  #print(neighbor_name)
   comId[i]<-com$membership[nodeID]
-  print(comId[i])
+  #print(comId[i])
   # print(gene_i[[comId[i]]])
 }
 
