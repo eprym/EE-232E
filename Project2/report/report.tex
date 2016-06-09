@@ -128,13 +128,17 @@ As for the reason why the names in the pairs collaborate in so many movies but w
 We remove all movies with less than 5 actors/actresses in movie-list.txt file, which contains the parsed data with movie actor/actress information.\\
 Then we map the actor to each movie and generate movie-edge-list file
 The jaccard index is defined as $$J_{ij}=\frac{l_{i} \cap l_{j} }{l_{i}\cup l_{j}}$$
-,where $l_{i}$ denotes the actor/actress list of movie i.\\
-Then we build the movie network based on the movie-edge-list and add genre, name, rating and director as the attributes of each movie node.
+where $l_{i}$ denotes the actor/actress list of movie i.
+Then we build the movie network based on the movie-edge-list and add genre, name, rating and director as the attributes of each movie node. There are 244655 nodes in the network.
 \section{Problem 5}
-After we constructed the network, there are 67 communities in total. The genres of each community occuring higher than 20\% are shown as follow:
+After we constructed the network, there are 67 communities in total. The genres of each community occuring higher than 20\% are shown in table \ref{tb:5_1}, not available means there are no genres occuring higher than 20\% in that community.
 \begin {table}[htbp]
+\caption{The genre of each community}
+\label{tb:5_1}
 \begin{adjustbox}{center}
+
 \begin{tabular}{|c|c|c}
+\hline
 1 & drama\\
 2 & drama\\
 3& short\\
@@ -161,7 +165,7 @@ After we constructed the network, there are 67 communities in total. The genres 
 24&short\\
 25&short\\
 26&romance\\
-27&\\
+27& Not available\\
 28&drama\\
 29&short\\
 30&drama romance\\
@@ -170,15 +174,17 @@ After we constructed the network, there are 67 communities in total. The genres 
 33& short\\
 34& drama\\
 35& drama\\
+\hline
 \end{tabular}
 \begin{tabular}{|c|c|c}
+\hline
 36& short\\
 37&horror thriller\\
 38& thriller\\
 39& horror short thriller\\
 40& comedy documentary drama\\
 
-41&\\
+41&Not available\\
 42&comedy short\\
 43&action short\\
 44& comedy\\
@@ -207,13 +213,14 @@ After we constructed the network, there are 67 communities in total. The genres 
 65&short\\
 66& short\\
 67&short\\
+\hline
 
 \end{tabular}
 \end{adjustbox}
 \end{table}
 \newpage
-From the statistics, we can see that the most common tags are short and drama.
-I think the tag are meaningful because usually one actor/actress tends to act in one or several movies genres. So the tag should represents the genres that the actors/actresses in the lists of the community tends to act in. 
+\noindent From the statistics, we can see that the most common tags are short and drama.
+I think the tags are meaningful because usually one actor/actress tends to act in one or several movies genres. So the tag should represents the genres that the actors/actresses in the lists of the community tends to act in. 
 So we can use the genres to tag the community.
 However, most of the tag has frequency lower than 0.3 so the tag cannot represents the whole community.
 \section{Problem 6}
@@ -235,11 +242,12 @@ The Theory of Everything (2014)\\
 \underline{Minions (2015)}\\
 The Lorax (2012),\\ Inside Out (2015),\\
 Despicable Me 2 (2013), \\Up (2009),\\
-Surf’s Up (2007)
+Surf’s Up (2007)\\
 
-Then we check the genres. The three movies belongs to community 3, with short as the genre.\\
-However, they are not short genres, their genres are thriller or sci-fi.\\
+\noindent Then we check the genres. The three movies belongs to community 3, with short as the genre.
+However, they are not short genres, their genres are thriller or sci-fi.
 I think this is because there are so many short movies that many of the communities have the tag of short. \\
+\\
 In fact, as mentioned above, the frequency are less than 0.3 for most of the tag, so it is not weird movie genres are diffrent with the tag of the community.
 \section{Problem 7}
 To predict the ratings of the above three movies, we use both ratings from their neighbors and from nodes in the same community. The point is how to combine them together. We tried four different methods listed below\\
