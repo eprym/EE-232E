@@ -124,6 +124,123 @@ Boulanger, Véronique & Carson, Lisa Nicole \\
 From the Table \ref{tb:3_3}, we can see that these pairs may occur between different actors and  actresses, but these actors all have relatively high weight with their connected edges. That means that they have collaborated with many of other actors in most of their participating movies especially to those whose movies are totally intersected with other actors. However, we actually barely know their names and they do not appear in the top pagerank as well. Actually, their page ranks are relatively low compared with our top pageranks. As, the pageranks do not simplycount for the simple two vertices'links and they consider for the total connectivity.\\
 \\
 As for the reason why the names in the pairs collaborate in so many movies but we do not know well, there are maybe two of them from our assumption. First, maybe we really are not familiar with them. Actually, when we try to search their names in the Google, we find out that some of them are not our generation. And movies in that age is definitely limited in the numbers, thus actors of that age are more likely to collaborate. Also, some of the actors are from some country that we are not familar with, thus these pairs may sound pretty famous to people from their country. Secondly, these actors may always act in the same kind of movies, thus their chance of co-acting with the same group of people are relatively high.
+\section{Problem 4}
+We remove all movies with less than 5 actors/actresses in movie-list.txt file, which contains the parsed data with movie actor/actress information.\\
+Then we map the actor to each movie and generate movie-edge-list file
+The jaccard index is defined as $$J_{ij}=\frac{l_{i} \cap l_{j} }{l_{i}\cup l_{j}}$$
+,where $l_{i}$ denotes the actor/actress list of movie i.\\
+Then we build the movie network based on the movie-edge-list and add genre, name, rating and director as the attributes of each movie node.
+\section{Problem 5}
+After we constructed the network, there are 67 communities in total. The genres of each community occuring higher than 20\% are shown as follow:
+\begin {table}[htbp]
+\begin{adjustbox}{center}
+\begin{tabular}{|c|c|c}
+1 & drama\\
+2 & drama\\
+3& short\\
+4&drama\\
+5&drama\\
+6&drama\\
+7&adult\\
+8&drama\\
+9&short\\
+10&drama\\
+11&drama\\
+12&short\\
+13&short\\
+14&drama\\
+15&drama\\
+16&drama\\
+17&drama\\
+18&adult\\
+19&drama\\
+20&comedy drama\\
+21&drama romance\\
+22&drama romance\\
+23&thriller\\
+24&short\\
+25&short\\
+26&romance\\
+27&\\
+28&drama\\
+29&short\\
+30&drama romance\\
+31&sci-fi thriller\\
+32& short\\
+33& short\\
+34& drama\\
+35& drama\\
+\end{tabular}
+\begin{tabular}{|c|c|c}
+36& short\\
+37&horror thriller\\
+38& thriller\\
+39& horror short thriller\\
+40& comedy documentary drama\\
+
+41&\\
+42&comedy short\\
+43&action short\\
+44& comedy\\
+45&short thriller\\
+46&comedy romance\\
+47&documentary\\
+48&short\\
+49&short\\
+50&short\\
+51&short\\
+52&short\\
+53&short\\
+54&horror short thriller\\
+55&short\\
+56&drama thriller\\
+57& sci-fi short\\
+58&adventure thriller\\
+59&horror short thriller\\
+60&short\\
+61& sci-fi short\\
+62&adventure crime short\\
+63&comedy short thriller\\
+64& short\\
+63&comedy short thriller\\
+64& short\\
+65&short\\
+66& short\\
+67&short\\
+
+\end{tabular}
+\end{adjustbox}
+\end{table}
+\newpage
+From the statistics, we can see that the most common tags are short and drama.
+I think the tag are meaningful because usually one actor/actress tends to act in one or several movies genres. So the tag should represents the genres that the actors/actresses in the lists of the community tends to act in. 
+So we can use the genres to tag the community.
+However, most of the tag has frequency lower than 0.3 so the tag cannot represents the whole community.
+\section{Problem 6}
+After searching the community, we found the nearest neighbors.\\
+
+\underline{ Batman v Superman: Dawn of Justice (2016)}:\\
+Man of Steel (2013), \\
+Into the Storm (2014),\\
+Real Steel (2011), \\
+Sparkle (2012/I),\\
+Salvation Boulevard (2011)\\
+
+\underline {Mission: Impossible - Rogue Nation:}\\
+Fan (2015),\\
+Phantom (2015)\\
+Suffragette (2015), \\Breaking the Bank (2014)\\
+The Theory of Everything (2014)\\
+
+\underline{Minions (2015)}\\
+The Lorax (2012),\\ Inside Out (2015),\\
+Despicable Me 2 (2013), \\Up (2009),\\
+Surf’s Up (2007)
+
+Then we check the genres. The three movies belongs to community 3, with short as the genre.\\
+However, they are not short genres, their genres are thriller or sci-fi.\\
+I think this is because there are so many short movies that many of the communities have the tag of short. \\
+In fact, as mentioned above, the frequency are less than 0.3 for most of the tag, so it is not weird movie genres are diffrent with the tag of the community.
 \section{Problem 7}
 To predict the ratings of the above three movies, we use both ratings from their neighbors and from nodes in the same community. The point is how to combine them together. We tried four different methods listed below\\
 \\

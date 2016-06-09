@@ -1,8 +1,11 @@
 \contentsline {section}{\numberline {1}Problem1}{3}{section.1}
 \contentsline {section}{\numberline {2}Problem2}{3}{section.2}
 \contentsline {section}{\numberline {3}Problem 3}{3}{section.3}
-\contentsline {section}{\numberline {4}Problem 7}{6}{section.4}
-\contentsline {section}{\numberline {5}Problem 8}{6}{section.5}
-\contentsline {subsection}{\numberline {5.1}Linear Regression Model}{7}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Random Forest Regression Model}{8}{subsection.5.2}
-\contentsline {section}{\numberline {6}Problem 9}{8}{section.6}
+\contentsline {section}{\numberline {4}Problem 4}{6}{section.4}
+\contentsline {section}{\numberline {5}Problem 5}{6}{section.5}
+\contentsline {section}{\numberline {6}Problem 6}{8}{section.6}
+\contentsline {section}{\numberline {7}Problem 7}{8}{section.7}
+\contentsline {section}{\numberline {8}Problem 8}{9}{section.8}
+\contentsline {subsection}{\numberline {8.1}Linear Regression Model}{10}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Random Forest Regression Model}{10}{subsection.8.2}
+\contentsline {section}{\numberline {9}Problem 9}{11}{section.9}
